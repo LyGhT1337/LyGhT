@@ -116,16 +116,29 @@ img:hover {
 
 /********** About.html **********/
 /* Main Area */
-.Main-About {
-    display: block;
-    margin-left: auto;
+.Main-Home {
+    margin-top: 15%;
     margin-right: auto;
-    margin-top: 6%;
+    margin-left: auto;
     width:1000px;
 }
-.Main-Header {
-    text-align: center;
-    color: #a83200;
+
+.Main-Home-Inner {
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.Welcome-Header {
+    padding-top: 1.6%;
+    width: 50%;
+    position:relative;
+    left: -50%;
+}
+
+/* Intro Parapraphs */
+.Intro-Contributions {
+    padding-top: 1%;
+}
 }
 /* Image */
 .Preview {
